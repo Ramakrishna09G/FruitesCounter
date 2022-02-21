@@ -1,0 +1,108 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+.fruites-counter-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.fruites-counter-container {
+  background-color: #ffd569;
+  height: 80vh;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fruites-counter-card {
+  background-color: #ffffff;
+  height: 98%;
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.eating-counts-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.fruite_count {
+  color: #ffd569;
+  font-style: normal;
+}
+.fruites-container {
+  background-color: transparent;
+
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.fruite-card {
+  background-color: transparent;
+  height: 98%;
+  width: 98%%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+.fruite-img {
+  height: 150px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+.fruite-button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-width: 0px;
+  border-radius: 3px;
+  width: 90px;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .fruites-counter-container {
+    height: 100vh;
+    width: 60%;
+  }
+  .fruites-counter-card {
+    margin-top: 0px;
+    height: 85%;
+    width: 76%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fruites-container {
+    margin-top: 0px;
+    height: 70%;
+    width: 95%;
+    flex-direction: row;
+  }
+  .eating-counts-heading {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .fruite-img {
+    height: 200px;
+    width: 250px;
+  }
+  .fruite-button {
+  }
+}
